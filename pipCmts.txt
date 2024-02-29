@@ -1,0 +1,70 @@
+PS D:\PyTest> cd Task6
+PS D:\PyTest\Task6> pip --version
+pip 23.2.1 from C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip (python 3.12)
+PS D:\PyTest\Task6> pip install -r requirement.txt
+
+[notice] A new release of pip is available: 23.2.1 -> 24.0
+[notice] To update, run: python.exe -m pip install --upgrade pip
+PS D:\PyTest\Task6> pip install pack1
+Collecting pack1
+  Downloading pack1-0.0.1.tar.gz (921 bytes)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+  Building wheel for pack1 (pyproject.toml) ... done
+  Created wheel for pack1: filename=pack1-0.0.1-py3-none-any.whl size=1438 sha256=59929089e9258f3a6e2b174a8e8422235f5bdc9082b2c38fb9e05d38e2022ca2
+Successfully built pack1
+Installing collected packages: pack1
+Successfully installed pack1-0.0.1
+
+[notice] A new release of pip is available: 23.2.1 -> 24.0
+[notice] To update, run: python.exe -m pip install --upgrade pip
+PS D:\PyTest\Task6> pip install -r requirement.txt
+
+[notice] A new release of pip is available: 23.2.1 -> 24.0
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Name: pack1
+Version: 0.0.1
+Summary: a pip-installable package example
+Home-page:
+Author: vinay279
+Author-email: mudiraj.vinay.279@gmail.com
+License: MIT
+Location: C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages
+Requires:
+Required-by:
+PS D:\PyTest\Task6> pip list
+Package Version
+------- -------
+pack1   0.0.1
+pip     23.2.1
+
+[notice] A new release of pip is available: 23.2.1 -> 24.0
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+-----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+S D:\PyTest\Task6> pip install Flask<2.0
+Collecting Flask<2.0
+  Downloading Flask-1.1.4-py2.py3-none-any.whl (94 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.6/94.6 kB 674.8 kB/s eta 0:00:00
+Collecting Werkzeug<2.0,>=0.15 (from Flask<2.0)
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 298.6/298.6 kB 4.6 MB/s eta 0:00:00
+Collecting Jinja2<3.0,>=2.10.1 (from Flask<2.0)
+  Downloading Jinja2-2.11.3-py2.py3-none-any.whl (125 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.7/125.7 kB 7.7 MB/s eta 0:00:00
+Collecting itsdangerous<2.0,>=0.24 (from Flask<2.0)
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting click<8.0,>=5.1 (from Flask<2.0)
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.8/82.8 kB 2.3 MB/s eta 0:00:00
+Collecting MarkupSafe>=0.23 (from Jinja2<3.0,>=2.10.1->Flask<2.0)
+  Obtaining dependency information for MarkupSafe>=0.23 from https://files.pythonhosted.org/packages/3f/14/c3554d512d5f9100a95e737502f4a2323a1959f6d0d01e0d0997b35f7b10/MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl.metadata
+  Downloading MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl.metadata (3.1 kB)
+Downloading MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl (17 kB)
+Installing collected packages: Werkzeug, MarkupSafe, itsdangerous, click, Jinja2, Flask
+Successfully installed Flask-1.1.4 Jinja2-2.11.3 MarkupSafe-2.1.5 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0
+
+[notice] A new release of pip is available: 23.2.1 -> 24.0      
+[notice] To update, run: python.exe -m pip install --upgrade pip
